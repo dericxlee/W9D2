@@ -1,0 +1,53 @@
+ul {
+    list-style-type: none
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: black solid; */
+    width: 300px;
+    height: 300px;
+}
+
+.grid li {
+    width: 98px;
+    height: 98px;
+    background-color: gray;
+    border: black solid 1px;
+}
+
+.grid li:hover {
+    background-color: yellow;
+}
+
+li.x {
+    font-size: 75px;
+    content: "X";
+    background-color: blue;
+    /* width: 98px; */
+}
+
+li.o {
+    font-size: 75px;
+    content: "O";
+    background-color: red;
+    /* width: 98px; */
+}
+
+.ttt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.winner {
+    width: 400px;
+    height: auto;
+    font-weight: bold;
+    font-size: 100px;
+    background-color: greenyellow;
+}
